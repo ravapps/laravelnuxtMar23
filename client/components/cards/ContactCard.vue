@@ -7,7 +7,7 @@
             {{ user.name }}
           </h3>
           <span
-            v-if="is_admin"
+            v-if="Iis_admin"
             class="flex-shrink-0 inline-block px-2 text-teal-800 text-xs leading-4 font-medium bg-green-100 rounded-full py-0.5"
           >
             Admin
@@ -24,7 +24,7 @@
         <div class="w-0 flex-1 flex border-r border-gray-200">
           <a
             class="relative -mr-px w-0 flex-1 inline-flex items-center justify-center py-4 text-sm leading-5 text-gray-700 font-medium border border-transparent rounded-bl-lg transition ease-in-out duration-150 hover:text-gray-500 focus:outline-none focus:shadow-outline-blue focus:border-blue-300 focus:z-10"
-            href="#"
+            :href="`mailto:` + `${user.email}`"
           >
             <icon-envelope class="w-5 h-5" />
             <span class="ml-3">Email</span>
@@ -36,7 +36,7 @@
             href="#"
           >
             <icon-phone class="w-5 h-5" />
-            <span class="ml-3">Call</span>
+            <span class="ml-3">{{ user.phone }}</span>
           </a>
         </div>
       </div>

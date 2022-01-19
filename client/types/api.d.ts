@@ -27,3 +27,5 @@ export interface User {
 }
 
 export type Users = Array<User>
+
+export type Results = Array<string>

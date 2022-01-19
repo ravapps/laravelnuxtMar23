@@ -1,0 +1,19 @@
+
+> laranuxt@1.0.0 dev
+> nuxt
+
+i Using Tailwind CSS from ~/assets\css\tailwind.css
+i Merging Tailwind config from ~/tailwind.config.js
+i Listening on: http://localhost:3000/
+i Preparing project for development
+i Initial build may take a while
+i 3 components compiled for nuxt-storm
+i Discovered Components: .nuxt/components/readme.md
+√ Builder initialized
+√ Nuxt files generated
+i Compiling Client
+i Starting type checking service...
+i Using 1 worker with 2048MB memory limit
+i Compiling Server
+√ Server: Compiled successfully in 41.85s
+Terminate batch job (Y/N)? 

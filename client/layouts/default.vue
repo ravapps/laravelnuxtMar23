@@ -1,7 +1,15 @@
 <template>
-  <div class="flex items-center justify-center">
-    <Nuxt />
+
+  <div >
+
+  <div class="flex flex-wrap -mx-4 space-y-4 md:space-y-0"">
+    <Logo />
   </div>
+    <div class="flex flex-wrap -mx-4 space-y-4 md:space-y-0"">
+    <Nuxt />
+      </div>
+  </div>
+
 </template>
 
 <style>

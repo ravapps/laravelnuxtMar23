@@ -12,6 +12,7 @@ module.exports = {
     },
   },
   plugins: [
+      require('tw-elements/dist/plugin')
   ],
   theme: {
     extend: {
@@ -26,6 +27,8 @@ module.exports = {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css
     enabled: process.env.NODE_ENV === 'production',
     content: [
+      './src/**/*.{html,js}',
+      './node_modules/tw-elements/dist/js/**/*.js',
       'node_modules/tv-*/dist/tv-*.umd.min.js',
       'client/components/**/*.vue',
       'client/layouts/**/*.vue',

@@ -24,6 +24,9 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ],
+    script: [
+
+    ],
   },
   /*
   ** Global CSS
@@ -35,6 +38,8 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    //'@/plugins/view-ui',
+    { src: '~/plugins/vue-datepicker', ssr: false },
   ],
   /*
   ** Auto import components
@@ -79,7 +84,7 @@ export default {
   */
   axios: {
     credentials: true,
-    baseURL: process.env.API_URL,
+    baseURL: 'http://localhost/laranuxt/public',
     headers: {
       accept: 'application/json',
     },
@@ -96,6 +101,7 @@ export default {
   ** See https://nuxtjs.org/guide/runtime-config/
   */
   publicRuntimeConfig: {
-    apiUrl: process.env.API_URL,
+    apiUrl: 'http://localhost/laranuxt/public',
+    imgURL: 'http://localhost/laranuxt/storage/app/',
   },
 }
