@@ -64,8 +64,10 @@ git clone <gitrepourl>; cd <projectfolder>; npm install / yarn; composer install
 * run `php artisan serve` (alias for `./artisan serve`) in another terminal for our laravel API  OR you can run under a webserver but supports PHP version after 8.
 
 
-### Video to include
-https://github.com/ravapps/laravelnuxtMar23/blob/e679e977846f9172b076e9aed2f8d115e56f670a/2022-01-19%2016-18-55.mp4
+### Video of End Result
+https://user-images.githubusercontent.com/32408213/224003313-0ca6556c-32c5-4dde-bee6-ee0a8cc13a7b.mp4
+
+
 
 ### Project description to include
 
