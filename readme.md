@@ -12,7 +12,7 @@
 
 
 
-## Laravel + Nuxt.js 
+## Laravel + Nuxt.js
 
 [![](https://img.shields.io/badge/nuxt.js-v2.15.8-04C690.svg)](https://nuxtjs.org)
 [![](https://img.shields.io/badge/Laravel-v8.60.0-ff2e21.svg)](https://laravel.com)
@@ -29,7 +29,7 @@
   * [@nuxtjs/typescript-build](https://typescript.nuxtjs.org/) TypeScript Support for Nuxt.js
   * [@nuxtjs/composition-api](https://composition-api.nuxtjs.org/) Composition API Support for Nuxt.js
   * [@nuxtjs/tailwindcss](https://tailwindcss.nuxtjs.org/) a [utility-first](https://tailwindcss.com) framework - now with PurgeCSS built in
-  * [@nuxtjs/axios](https://github.com/nuxt-community/axios-module) to communicate with our API 
+  * [@nuxtjs/axios](https://github.com/nuxt-community/axios-module) to communicate with our API
   * [nuxt-tailvue](https://github.com/acidjazz/nuxt-tailvue) a collection of components built for Nuxt.js, powered by TailwindCSS
 
 * [Laravel](https://laravel.com) - for our API - `v8.60.0`
@@ -41,9 +41,9 @@
 
 * clone from GitHub
 * run `npm install` / `yarn` and `composer install` to install all of your deps
-* copy `.env.example` to `.env` and configure it mainly for database settings / app key
+* copy `.env.example` to `.env` and configure it mainly for database settings / app key / url prefix for images 
 * create db tables with php artisan migrate
-* create 
+* create
 * TL;DR
  ```bash
 git clone <gitrepourl>; cd <projectfolder>; npm install / yarn; composer install; cp .env.example .env; php artisan migrate
@@ -51,7 +51,7 @@ git clone <gitrepourl>; cd <projectfolder>; npm install / yarn; composer install
 * Feel free to delete excess media in  `/client/static/`, just images for the readme
 
 
-### Before running 
+### Before running
 * edit nuxt.config.js for the api url changes on axios
 * edit tsconfig.json jsconfig.json for tailwind and typescript configuration
 
@@ -61,7 +61,7 @@ git clone <gitrepourl>; cd <projectfolder>; npm install / yarn; composer install
 
 ### Local Environment (npm way)
 * run `npm run dev` in one terminal for our nuxt dev setup
-* run `php artisan serve` (alias for `./artisan serve`) in another terminal for our laravel API  OR you can run under a webserver but supports PHP version after 8. 
+* run `php artisan serve` (alias for `./artisan serve`) in another terminal for our laravel API  OR you can run under a webserver but supports PHP version after 8.
 
 
 ### Video to include
