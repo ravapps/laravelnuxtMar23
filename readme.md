@@ -6,7 +6,7 @@
   <a href="https://laravel.com"><img src="Laravel.png" width="92" height="92" /></a>
   <a href="https://vuejs.org"><img src="Vue.png" width="92" height="92" /></a>
   <a href="https://www.typescriptlang.org/"><img src="Typescript.png" width="92" height="92" /></a>
-  <a href="https://tailwindcss.com"><img src="tailwind.jpeg" width="184" height="92" /></a>
+  <a href="https://tailwindcss.com"><img src="tailwind.jpg" width="184" height="92" /></a>
   <a href="https://github.com/acidjazz/metapi"><img src="api.png" width="92" height="92" /></a>
 </p>
 
