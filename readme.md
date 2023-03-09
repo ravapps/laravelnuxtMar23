@@ -11,9 +11,8 @@
 </p>
 
 
-> *NEW* Want all of your models typed out as interfaces? check out [modeltyper](https://github.com/fumeapp/modeltyper)
 
-## Laravel + Nuxt.js Boilerplate
+## Laravel + Nuxt.js 
 
 [![](https://img.shields.io/badge/nuxt.js-v2.15.8-04C690.svg)](https://nuxtjs.org)
 [![](https://img.shields.io/badge/Laravel-v8.60.0-ff2e21.svg)](https://laravel.com)
