@@ -41,7 +41,7 @@
 
 * clone from GitHub
 * run `npm install` / `yarn` and `composer install` to install all of your deps
-* copy `.env.example` to `.env` and configure it mainly for database settings / app key / url prefix for images 
+* copy `.env.example` to `.env` and configure it mainly for database settings / app key / url prefix for images
 * create db tables with php artisan migrate
 * create
 * TL;DR
@@ -65,8 +65,9 @@ git clone <gitrepourl>; cd <projectfolder>; npm install / yarn; composer install
 
 
 ### Video to include
-### Project description to include
+https://github.com/ravapps/laravelnuxtMar23/blob/e679e977846f9172b076e9aed2f8d115e56f670a/2022-01-19%2016-18-55.mp4
 
+### Project description to include
 
 
 ### Enjoy !
