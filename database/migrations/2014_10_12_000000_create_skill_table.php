@@ -21,10 +21,9 @@ class CreateSkillTable extends Migration
             $table->string('skill_name');
             $table->integer('exp_months');
             $table->integer('expertise');
-            $table->date('created_at');->default(DB::raw('NOW()'));
-            $table->date('updated_at');->default(DB::raw('NOW()'));
-
-            //$table->timestamps();
+            //$table->date('created_at')->default(DB::raw('NOW()'));
+            //$table->date('updated_at')->default(DB::raw('NOW()'));
+            $table->timestamps();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             //$table->primary('id');
             $table->index('user_id');

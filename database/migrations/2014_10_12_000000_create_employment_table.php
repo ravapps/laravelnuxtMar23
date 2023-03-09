@@ -24,10 +24,10 @@ class CreateEmploymentTable extends Migration
             $table->string('responsibility_detail');
             $table->string('any_references')->nullable();
 
-            $table->date('created_at');->default(DB::raw('NOW()'));
-            $table->date('updated_at');->default(DB::raw('NOW()'));
+            //$table->date('created_at')->default(DB::raw('NOW()'));
+            //$table->date('updated_at')->default(DB::raw('NOW()'));
 
-            //$table->timestamps();
+            $table->timestamps();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
 
             $table->index('user_id');

@@ -23,10 +23,10 @@ class CreateEducationTable extends Migration
             $table->string('year_passed');
             $table->string('score_grade');
 
-            //$table->timestamps();
-            $table->date('created_at');->default(DB::raw('NOW()'));
-            $table->date('updated_at');->default(DB::raw('NOW()'));
-            
+            $table->timestamps();
+            //$table->date('created_at')->default(DB::raw('NOW()'));
+            //$table->date('updated_at')->default(DB::raw('NOW()'));
+
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade');
             //$table->primary('id');
             $table->index('user_id');

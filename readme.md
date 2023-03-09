@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/acidjazz/laranuxt/master/client/static/laranuxt.png" />
+  <img src="laranuxt.png" width="92" height="92" />
 </p>
 
 <p align="center">
-  <a href="https://laravel.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1200px-Laravel.svg.png" width="92" height="92" /></a>
-  <a href="https://vuejs.org"><img src="https://vuejs.org/images/logo.png" width="92" height="92" /></a>
-  <a href="https://www.typescriptlang.org/"><img src="https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png" width="92" height="92" /></a>
-  <a href="https://tailwindcss.com"><img src="https://pbs.twimg.com/profile_images/1278691829135876097/I4HKOLJw_400x400.png" width="92" height="92" /></a>
-  <a href="https://github.com/acidjazz/metapi"><img src="https://github.com/acidjazz/metapi/raw/master/logo.png" width="92" height="92" /></a>
+  <a href="https://laravel.com"><img src="Laravel.png" width="92" height="92" /></a>
+  <a href="https://vuejs.org"><img src="Vue.png" width="92" height="92" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="Typescript.png" width="92" height="92" /></a>
+  <a href="https://tailwindcss.com"><img src="tailwind.jpeg" width="184" height="92" /></a>
+  <a href="https://github.com/acidjazz/metapi"><img src="api.png" width="92" height="92" /></a>
 </p>
 
 
@@ -22,7 +22,7 @@
 [![Lint Javascript](https://github.com/acidjazz/laranuxt/actions/workflows/lint-js.yml/badge.svg)](https://github.com/acidjazz/laranuxt/actions/workflows/lint-js.yml)
 [![Lint PHP](https://github.com/acidjazz/laranuxt/actions/workflows/lint-php.yml/badge.svg)](https://github.com/acidjazz/laranuxt/actions/workflows/lint-php.yml)
 
-![](client/static/laranuxt.gif?raw=true)
+
 
 ### What is included
 
@@ -41,18 +41,33 @@
 ### Installation
 
 * clone from GitHub
-* run `yarn` and `composer install` to install all of your deps
-* copy `.env.example` to `.env` and configure it to your likings
+* run `npm install` / `yarn` and `composer install` to install all of your deps
+* copy `.env.example` to `.env` and configure it mainly for database settings / app key
+* create db tables with php artisan migrate
+* create 
 * TL;DR
  ```bash
-git clone git@github.com:Rimsys/laranuxt.git; cd laranuxt; yarn; composer install; cp .env.example .env;
+git clone <gitrepourl>; cd <projectfolder>; npm install / yarn; composer install; cp .env.example .env; php artisan migrate
  ```
 * Feel free to delete excess media in  `/client/static/`, just images for the readme
 
 
-### Local Environment
+### Before running 
+* edit nuxt.config.js for the api url changes on axios
+* edit tsconfig.json jsconfig.json for tailwind and typescript configuration
+
+### Local Environment (yarn way)
 * run `yarn dev` in one terminal for our nuxt dev setup
 * run `yarn api` (alias for `./artisan serve`) in another terminal for our laravel API
 
-### Features
+### Local Environment (npm way)
+* run `npm run dev` in one terminal for our nuxt dev setup
+* run `php artisan serve` (alias for `./artisan serve`) in another terminal for our laravel API  OR you can run under a webserver but supports PHP version after 8. 
 
+
+### Video to include
+### Project description to include
+
+
+
+### Enjoy !

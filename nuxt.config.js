@@ -84,7 +84,7 @@ export default {
   */
   axios: {
     credentials: true,
-    baseURL: 'http://localhost/laranuxt/public',
+    baseURL: 'http://localhost/laravelnuxt/public',
     headers: {
       accept: 'application/json',
     },
@@ -101,7 +101,7 @@ export default {
   ** See https://nuxtjs.org/guide/runtime-config/
   */
   publicRuntimeConfig: {
-    apiUrl: 'http://localhost/laranuxt/public',
-    imgURL: 'http://localhost/laranuxt/storage/app/',
+    apiUrl: 'http://localhost/laravelnuxt/public',
+    imgURL: 'http://localhost/laravelnuxt/storage/app/',
   },
 }
